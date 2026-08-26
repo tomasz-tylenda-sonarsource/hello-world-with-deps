@@ -15,5 +15,6 @@ public class App {
         App app = new App();
         String name = args.length > 0 ? args[0] : null;
         System.out.println(app.greeting(name));
+        System.out.println("Goodbye!");
     }
 }
